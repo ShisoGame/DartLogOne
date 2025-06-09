@@ -3,47 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>あなたのアプリ名 - アプリ紹介</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Date Log One - ダーツスコア記録アプリ</title>
+    <meta name="description" content="iOS向けダーツスコアアプリ「Date Log One」で、あなたのダーツ上達をサポート。ゲーム記録、統計、分析機能で弱点を克服しよう！">
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
     <header>
-        <h1>あなたのアプリ名</h1>
-        <p>あなたのアプリのキャッチコピーをここに。</p>
+        <div class="container">
+            <h1><img src="images/logo.png" alt="Date Log One ロゴ" class="logo"> Date Log One</h1>
+            <p class="tagline">あなたのダーツ上達を、データが変える。</p>
+            <a href="https://apps.apple.com/jp/app/your-app-id" target="_blank" class="button download-button">App Storeでダウンロード</a>
+        </div>
     </header>
 
     <main>
-        <section id="about">
-            <h2>アプリについて</h2>
-            <p>このアプリは、〇〇な問題を解決し、〇〇な体験を提供します。</p>
+        <section id="hero" class="section-padded">
+            <div class="container">
+                <img src="images/hero-screenshot.png" alt="Date Log One アプリのメイン画面" class="hero-image">
+            </div>
         </section>
 
-        <section id="features">
-            <h2>主な機能</h2>
-            <ul>
-                <li>機能1の説明</li>
-                <li>機能2の説明</li>
-                <li>機能3の説明</li>
-            </ul>
+        <section id="features" class="section-padded bg-light">
+            <div class="container">
+                <h2>主な機能</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <img src="images/icon-score.png" alt="スコア記録アイコン">
+                        <h3>簡単スコア記録</h3>
+                        <p>シンプルで直感的なインターフェースで、ゲーム中に素早くスコアを入力。ダーツの集中を妨げません。</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/icon-stats.png" alt="統計分析アイコン">
+                        <h3>詳細な統計分析</h3>
+                        <p>アベレージ、スタッツ、最高点など、プレイデータを自動で集計・分析。自分の強みと弱みが一目でわかります。</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/icon-chart.png" alt="成長グラフアイコン">
+                        <h3>成長を可視化</h3>
+                        <p>時系列での成績推移をグラフで表示。日々の練習の成果を実感し、モチベーションを維持できます。</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/icon-data.png" alt="データ管理アイコン">
+                        <h3>安全なデータ管理</h3>
+                        <p>記録したデータはデバイス内に保存され、いつでも振り返り可能。あなたのダーツライフを完全にサポートします。</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="screenshots">
-            <h2>スクリーンショット</h2>
-            <img src="images/screenshot1.png" alt="アプリのスクリーンショット1" style="max-width: 100%;">
-            <img src="images/screenshot2.png" alt="アプリのスクリーンショット2" style="max-width: 100%;">
+        <section id="screenshots" class="section-padded">
+            <div class="container">
+                <h2>アプリのスクリーンショット</h2>
+                <div class="screenshot-gallery">
+                    <img src="images/screenshot1.png" alt="スクリーンショット1：ゲーム記録画面" class="screenshot-item">
+                    <img src="images/screenshot2.png" alt="スクリーンショット2：統計画面" class="screenshot-item">
+                    <img src="images/screenshot3.png" alt="スクリーンショット3：グラフ表示画面" class="screenshot-item">
+                    </div>
+            </div>
         </section>
 
-        <section id="download">
-            <h2>ダウンロード</h2>
-            <p>今すぐダウンロードして、あなたの生活をより豊かに！</p>
-            <a href="ダウンロード先のURL (App Store, Google Playなど)" class="button">ダウンロード</a>
+        <section id="download-cta" class="section-padded bg-dark text-white">
+            <div class="container text-center">
+                <h2>今すぐ「Date Log One」を始めよう！</h2>
+                <p>あなたのダーツスキルを次のレベルへ。記録して、分析して、上達を実感。</p>
+                <a href="https://apps.apple.com/jp/app/your-app-id" target="_blank" class="button download-button large-button">App Storeでダウンロード</a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 あなたの名前/会社名</p>
+        <div class="container">
+            <p>&copy; 2025 Date Log One. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#">プライバシーポリシー</a> |
+                <a href="#">お問い合わせ</a>
+            </nav>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
+    </body>
 </html>
